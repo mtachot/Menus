@@ -1,0 +1,24 @@
+﻿.treeNode{
+    color: #070707;
+    font: 14px Arial, Sans-Serif;
+}
+
+.rootNode{
+    font-size: 18px;
+    padding: 5px;
+    color: red;
+    background-color: #DDD;
+    border-radius: 5px;
+}
+
+.leafNode{
+    color: #070707;
+    background-color: silver;
+}
+
+.selectedNode{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
