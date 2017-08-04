@@ -165,6 +165,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS\RadioButton.css" />
     <Content Include="CSS\Menu1.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
@@ -173,6 +174,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Pages\Radiobuttons.aspx" />
     <Content Include="Pages\Menu1.html" />
     <Content Include="Pages\TreeView1.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -357,6 +359,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Pages\Radiobuttons.aspx.cs">
+      <DependentUpon>Radiobuttons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Radiobuttons.aspx.designer.cs">
+      <DependentUpon>Radiobuttons.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\TreeView1.aspx.cs">
       <DependentUpon>TreeView1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
