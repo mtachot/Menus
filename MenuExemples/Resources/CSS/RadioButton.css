@@ -1,0 +1,90 @@
+﻿/* Tous les input contenus dans un un élément qui possède la classe .css-checkbox */
+.css-checkbox input[type=radio] {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+    /* Tous les label qui suivent un input de type radio, contenus dans un élément qui possède la classe .css-checkbox */
+    .css-checkbox input[type=radio] + label {
+        padding-left: 20px;
+        height: 15px;
+        display: inline-block;
+        line-height: 15px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        font-size: 15px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    /* Tous les label checked qui suivent un input de type radio, contenus dans un élément qui possède la classe .css-checkbox */
+    .css-checkbox input[type=radio]:checked + label {
+        background-position: 0 -15px;
+    }
+
+/* Tous les label contenus dans un élément qui possède la classe .css-checkbox */
+.css-checkbox label {
+    background-image: url("../Images/csscheckbox_d1.png");
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+/**************************************************************************************************************************/
+/**************************************************************************************************************************/
+/*
+    Deuxième style de radio button
+*/
+/**************************************************************************************************************************/
+/**************************************************************************************************************************/
+.css-checkbox2 input[type=radio] {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+    .css-checkbox2 input[type=radio] + label {
+        padding-left: 21px;
+        height: 16px;
+        display: inline-block;
+        line-height: 16px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        font-size: 16px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .css-checkbox2 input[type=radio]:checked + label {
+        background-position: 0 -16px;
+    }
+
+.css-checkbox2 label {
+    background-image: url("../Images/csscheckbox_d2.png");
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
