@@ -165,8 +165,12 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Pages\Checkbox.aspx" />
+    <Content Include="Pages\Login.aspx" />
+    <Content Include="Resources\CSS\Checkbox.css" />
     <Content Include="Resources\CSS\RadioButton.css" />
     <Content Include="Resources\CSS\Menu1.css" />
+    <Content Include="Resources\CSS\TextboxLogin.css" />
     <Content Include="Resources\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
     <Content Include="Resources\Fonts\glyphicons-halflings-regular.woff" />
@@ -361,6 +365,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Pages\Checkbox.aspx.cs">
+      <DependentUpon>Checkbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Checkbox.aspx.designer.cs">
+      <DependentUpon>Checkbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Radiobuttons.aspx.cs">
       <DependentUpon>Radiobuttons.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
