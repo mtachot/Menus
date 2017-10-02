@@ -10,13 +10,13 @@ namespace MenuExemples.Classes.Security
 {
     public class Hash
     {
-        public string HashSHA512(string toHash)
+        public static string HashSHA512(string toHash)
         {
             byte[] textAsByte = Encoding.Default.GetBytes(toHash);
             SHA512 sha512 = SHA512Cng.Create();
 
             byte[] hash = sha512.ComputeHash(textAsByte);
-            return hash.ToString();
+            return Encoding.Default.GetString(hash);
         }
     }
 }
