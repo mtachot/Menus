@@ -4,11 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Login</title>
     <link rel="stylesheet" href="../Resources/CSS/TextboxLogin.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="mainForm" runat="server">
         <div style="position: absolute; margin: 20% 0 0 35%;">
             <div>
                 <asp:Label ID="lblLogin" runat="server" Text="Login :" style="padding-left: 3px;" />
