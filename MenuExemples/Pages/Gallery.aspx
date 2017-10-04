@@ -4,53 +4,57 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <!--  Tells mobile browsers to not scale the page by default. This allows our media queries to be applied instead of the default "scale the page way down" behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Gallery</title>
     <link rel="stylesheet" href="../Resources/CSS/Gallery.css" />
 </head>
 <body>
     <form id="mainForm" runat="server">
         <div class="wrapper">
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
                     First picture
                 </div>
             </div>
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
-                    First picture
+                    Second picture
                 </div>
             </div>
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
-                    First picture
+                    Third picture
                 </div>
             </div>
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
-                    First picture
+                    Fourth picture
                 </div>
             </div>
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
-                    First picture
+                    Fifth picture
                 </div>
             </div>
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
-                    First picture
+                    Sixth picture
                 </div>
             </div>
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
-                    First picture
+                    Seventh picture
                 </div>
             </div>
-            <div class="box mediumBox">
+            <div class="box">
                 <div class="innerContent">
-                    First picture
+                    Eighth picture
                 </div>
             </div>
         </div>
+        <!-- /#wrapper -->
     </form>
 </body>
 </html>
