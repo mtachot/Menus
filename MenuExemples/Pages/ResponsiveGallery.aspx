@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="MenuExemples.Pages.Gallery" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ResponsiveGallery.aspx.cs" Inherits="MenuExemples.Pages.Gallery" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Gallery</title>
-    <link rel="stylesheet" href="../Resources/CSS/Gallery.css" />
+    <link rel="stylesheet" href="../Resources/CSS/ResponsiveGallery.css" />
 </head>
 <body>
     <form id="mainForm" runat="server">

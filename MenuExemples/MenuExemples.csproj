@@ -151,12 +151,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Pages\Checkbox.aspx" />
-    <Content Include="Pages\Gallery.aspx" />
+    <Content Include="Pages\ResponsiveGallery.aspx" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\SliderGallery.aspx" />
     <Content Include="Resources\CSS\Checkbox.css" />
-    <Content Include="Resources\CSS\Gallery.css" />
+    <Content Include="Resources\CSS\ResponsiveGallery.css" />
     <Content Include="Resources\CSS\RadioButton.css" />
     <Content Include="Resources\CSS\Menu1.css" />
+    <Content Include="Resources\CSS\SliderGallery.css" />
     <Content Include="Resources\CSS\TextboxLogin.css" />
     <Content Include="Resources\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
@@ -169,6 +171,15 @@
     <Content Include="Pages\TreeView1.aspx" />
     <Content Include="Resources\Images\csscheckbox_d1.png" />
     <Content Include="Resources\Images\csscheckbox_d2.png" />
+    <Content Include="Resources\Images\SliderGallery\FirstThumbPicture.jpg" />
+    <Content Include="Resources\Images\SliderGallery\FourthThumbPicture.jpg" />
+    <Content Include="Resources\Images\SliderGallery\SecondThumbPicture.jpg" />
+    <Content Include="Resources\Images\SliderGallery\ThirdThumbPicture.jpg" />
+    <Content Include="Resources\Images\SliderGallery\FirstBigImage.jpg" />
+    <Content Include="Resources\Images\SliderGallery\FourthBigImage.jpg" />
+    <Content Include="Resources\Images\SliderGallery\HoverOverAnImage.jpg" />
+    <Content Include="Resources\Images\SliderGallery\SecondBigImage.jpg" />
+    <Content Include="Resources\Images\SliderGallery\ThirdBigImage.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -216,7 +227,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -224,9 +234,6 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
-    <Compile Include="App_Start\IdentityConfig.cs" />
-    <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Classes\Security\AES.cs" />
     <Compile Include="Classes\Security\Hash.cs" />
     <Compile Include="Contact.aspx.cs">
@@ -247,7 +254,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Pages\Checkbox.aspx.cs">
       <DependentUpon>Checkbox.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -255,12 +261,12 @@
     <Compile Include="Pages\Checkbox.aspx.designer.cs">
       <DependentUpon>Checkbox.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Gallery.aspx.cs">
-      <DependentUpon>Gallery.aspx</DependentUpon>
+    <Compile Include="Pages\ResponsiveGallery.aspx.cs">
+      <DependentUpon>ResponsiveGallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Gallery.aspx.designer.cs">
-      <DependentUpon>Gallery.aspx</DependentUpon>
+    <Compile Include="Pages\ResponsiveGallery.aspx.designer.cs">
+      <DependentUpon>ResponsiveGallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -275,6 +281,13 @@
     </Compile>
     <Compile Include="Pages\Radiobuttons.aspx.designer.cs">
       <DependentUpon>Radiobuttons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SliderGallery.aspx.cs">
+      <DependentUpon>SliderGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SliderGallery.aspx.designer.cs">
+      <DependentUpon>SliderGallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\TreeView1.aspx.cs">
       <DependentUpon>TreeView1.aspx</DependentUpon>
@@ -307,9 +320,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
