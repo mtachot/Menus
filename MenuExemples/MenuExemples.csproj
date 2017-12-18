@@ -154,11 +154,13 @@
     <Content Include="Pages\ResponsiveGallery.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\SliderGallery.aspx" />
+    <Content Include="Pages\StaticFloatingMenu.aspx" />
     <Content Include="Resources\CSS\Checkbox.css" />
     <Content Include="Resources\CSS\ResponsiveGallery.css" />
     <Content Include="Resources\CSS\RadioButton.css" />
     <Content Include="Resources\CSS\Menu1.css" />
     <Content Include="Resources\CSS\SliderGallery.css" />
+    <Content Include="Resources\CSS\StaticFloatingMenu.css" />
     <Content Include="Resources\CSS\TextboxLogin.css" />
     <Content Include="Resources\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
@@ -204,6 +206,7 @@
     <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
     <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
     <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\StaticFloatingMenu.js" />
     <Content Include="Scripts\WebForms\TreeView.js" />
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
@@ -288,6 +291,13 @@
     </Compile>
     <Compile Include="Pages\SliderGallery.aspx.designer.cs">
       <DependentUpon>SliderGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StaticFloatingMenu.aspx.cs">
+      <DependentUpon>StaticFloatingMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\StaticFloatingMenu.aspx.designer.cs">
+      <DependentUpon>StaticFloatingMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\TreeView1.aspx.cs">
       <DependentUpon>TreeView1.aspx</DependentUpon>
